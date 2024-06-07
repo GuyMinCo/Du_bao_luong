@@ -19,7 +19,7 @@ import os
 
 
 def predict(namkinhnghiem):    # load mô hình
-    loaded_model = pickle.load(open(r'C:\Users\Administrator\Desktop\Python\Tai lieu khoa hoc Python\Thuc hanh\Deploy ung dung web du bao luong\model_luong.sav','rb'))
+    loaded_model = pickle.load(open(r'model_luong.sav','rb'))
     row=[]
     row.append(namkinhnghiem)
 
